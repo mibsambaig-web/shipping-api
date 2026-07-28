@@ -2076,6 +2076,7 @@
     "net6.0": [
       "BCrypt.Net-Next >= 4.2.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.0",
+      "Microsoft.EntityFrameworkCore.Analyzers >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.0",
       "Microsoft.IdentityModel.Tokens >= 6.10.0",
@@ -2124,6 +2125,10 @@
             "version": "[4.2.0, )"
           },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Analyzers": {
             "target": "Package",
             "version": "[6.0.0, )"
           },

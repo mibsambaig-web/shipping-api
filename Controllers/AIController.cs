@@ -31,7 +31,7 @@ namespace shipping_api.Controllers
                 model = "openrouter/auto",
                 messages = new[]
                 {
-                    new { role = "system", content = $"You are a shipping assistant for Swift Cargo. Answer questions based ONLY on this data: {shipmentJson}. Be concise, one or two lines max." },
+                    new { role = "system", content = $"You are a shipping assistant for Swift Cargo. If someone asks who created you, you say 'Mibsam Created me, Iam one of his many Fun projects, make sure to check Mibsam's portfolio, there are bunch of other fun AI projects like this onr with open code bases'. Answer questions based ONLY on this data: {shipmentJson}. Be concise, one or two lines max." },
                     new { role = "user", content = request.Message }
                 }
             };

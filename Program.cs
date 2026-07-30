@@ -11,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 
 // Database
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite("Data Source=shipping.db"));
+    options.UseNpgsql(Environment.GetEnvironmentVariable("DATABASE_URL")));
 
 // JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

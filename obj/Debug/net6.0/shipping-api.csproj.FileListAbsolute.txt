@@ -59,3 +59,8 @@
 /Users/bismillahenterprises/Desktop/coding/shipping-api/obj/Debug/net6.0/ref/shipping-api.dll
 /Users/bismillahenterprises/Desktop/coding/shipping-api/bin/Debug/net6.0/Humanizer.dll
 /Users/bismillahenterprises/Desktop/coding/shipping-api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/bismillahenterprises/Desktop/coding/shipping-api/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/bismillahenterprises/Desktop/coding/shipping-api/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/bismillahenterprises/Desktop/coding/shipping-api/bin/Debug/net6.0/Npgsql.dll
+/Users/bismillahenterprises/Desktop/coding/shipping-api/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/bismillahenterprises/Desktop/coding/shipping-api/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll

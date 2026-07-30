@@ -10,5 +10,6 @@ namespace shipping_api.Models
         public string Destination { get; set; } = string.Empty;
         public string Status { get; set; } = string.Empty;
         public string Date { get; set; } = string.Empty;
+        public int UserId { get; set; }
     }
 }
